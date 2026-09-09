@@ -174,9 +174,8 @@ This allows multiple virtual machines to be placed within the same private virtu
 ### 📷 Screenshot — NAT Network Configuration
 
 
-```markdown
 ![NAT Network Configuration](screenshots/01-nat-network.png)
-```
+
 
 ---
 
