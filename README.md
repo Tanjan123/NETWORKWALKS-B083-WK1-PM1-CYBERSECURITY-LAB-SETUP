@@ -337,9 +337,7 @@ From 10.0.0.2 icmp_seq=2 Destination Host Unreachable
 This indicated that although the interface had an IPv4 address, packets were not successfully reaching the intended destination.
 
 
-```markdown
 ![Connectivity Failure](screenshots/08-connectivity-failure.png)
-```
 
 ---
 
@@ -514,14 +512,10 @@ mykali
 4. Open the **Snapshots** section.
 5. Select the current machine state.
 6. Choose **Take Snapshot**.
-7. Enter:
-
-```text
-mykali
-```
-
+7. Enter: mykali
 8. Confirm the snapshot.
 
+### 📷 Screenshot — Snapshot Process 
 
 ![Create Snapshot](screenshots/12-create-snapshot.png)
 
@@ -536,7 +530,7 @@ mykali
 
 | Parameter             | Final Configuration      |
 | --------------------- | ------------------------ |
-| **Host OS**           | Windows 10               |
+| **Host OS**           | Windows 11               |
 | **Hypervisor**        | Oracle VM VirtualBox 7.2 |
 | **Security OS**       | Kali Linux 2026.2        |
 | **RAM**               | 2048 MB                  |
@@ -683,20 +677,6 @@ Possible future architecture:
    Attacker           Lab Target       Testing
 ```
 
-Future experiments may include:
-
-* Network discovery
-* Nmap scanning
-* Packet capture with Wireshark
-* Vulnerability assessment
-* Web application security testing
-* Linux server hardening
-* Firewall configuration
-* Client/server networking
-* Controlled exploitation
-* Security monitoring
-* Building an attacker/target virtual lab
-
 ---
 
 # 🧰 Tools & Technologies
@@ -710,7 +690,6 @@ Future experiments may include:
 | **ifconfig**             | Interface management                      |
 | **ip**                   | Network configuration and verification    |
 | **ping**                 | Connectivity testing                      |
-| **nslookup**             | DNS testing                               |
 | **GitHub**               | Project documentation and version control |
 
 ---
@@ -723,56 +702,22 @@ Future experiments may include:
 
 ---
 
-# 📁 Repository Structure
-
-Recommended repository organization:
-
-```text
-cybersecurity-kali-virtualbox-lab/
-│
-├── README.md
-│
-├── screenshots/
-│   ├── 01-nat-network.png
-│   ├── 02-kali-vm.png
-│   ├── 03-initial-nat.png
-│   ├── 04-nat-network-adapter.png
-│   ├── 05-ethernet-settings.png
-│   ├── 06-manual-ipv4.png
-│   ├── 07-ip-a.png
-│   ├── 08-connectivity-failure.png
-│   ├── 09-ip-10.0.0.2.png
-│   ├── 10-destination-host-unreachable.png
-│   ├── 11-ip-10.0.0.4.png
-│   ├── 12-create-snapshot.png
-│   └── 13-mykali-snapshot.png
-│
-└── docs/
-    ├── part-1-network-setup.md
-    └── part-2-resolution-snapshot.md
-```
-
----
-
 # 👤 Author
 
-**Anil**
+**Tanjan Singh Karki**
 
-Computer Engineering Graduate
-Cybersecurity & Networking Lab Project
+**Computer Engineering Graduate : Cybersecurity Enthusiast**
+
+Linkedin : https://www.linkedin.com/in/tanjan-karki-cybersecurity/
 
 ---
 
 # 📌 Project Information
 
-**Project:** Kali Linux Cybersecurity Lab Setup
-**Module:** Virtualization & Networking
-**Platform:** Oracle VM VirtualBox
-**Security OS:** Kali Linux 2026.2
-**Network:** `10.0.0.0/24` NAT Network
-**Final Kali IP:** `10.0.0.4/24`
-**Snapshot:** `mykali`
-
+**Program Name:** Cybersecurity at Networkwalks 
+**Week:** 01 
+**Project:** Cybersecurity & Pentesting Lab Setup 
+**Repository:** GitHub
 ---
 
 ## ⭐ Conclusion
