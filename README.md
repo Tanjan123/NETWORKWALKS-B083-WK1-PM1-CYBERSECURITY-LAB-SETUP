@@ -195,10 +195,8 @@ The VM was then prepared for network configuration.
 
 ### 📷 Screenshot — Kali Linux Virtual Machine
 
-
-```markdown
 ![Kali Linux VM](screenshots/02-kali-open.png)
-```
+
 
 ```markdown
 ![Kali Linux VM](screenshots/03-kali-vm.png)
@@ -229,9 +227,7 @@ A **NAT Network** allows multiple VMs connected to the same NAT Network to commu
 This makes NAT Network useful for building a multi-machine cybersecurity laboratory.
 
 
-```markdown
 ![NAT Network Adapter](screenshots/04-nat-network-adapter.png)
-```
 
 ---
 
@@ -259,9 +255,7 @@ The IPv4 configuration was then opened for manual configuration.
 
 > **Insert your Ethernet settings screenshot here.**
 
-```markdown
 ![Ethernet Configuration](screenshots/05-ethernet-settings.png)
-```
 
 ---
 
@@ -287,9 +281,7 @@ The corresponding subnet mask is:
 ### 📷 Screenshot — Manual IPv4 Configuration
 
 
-```markdown
 ![Manual IPv4 Configuration](screenshots/06-manual-ipv4.png)
-```
 
 ---
 
@@ -321,9 +313,7 @@ at this stage of the experiment.
 ### 📷 Screenshot — `ip a`
 
 
-```markdown
 ![IP Address Verification](screenshots/07-ip-a.png)
-```
 
 ---
 
@@ -433,14 +423,10 @@ DNS:        8.8.8.8
 This resolved the configuration problem observed during the initial setup.
 
 
-```markdown
 ![Initial IP Configuration](screenshots/09-ip-10.0.0.2.png)
-```
 
 
-```markdown
 ![Corrected IP Configuration](screenshots/11-ip-10.0.0.4.png)
-```
 
 ---
 
@@ -539,16 +525,12 @@ mykali
 8. Confirm the snapshot.
 
 
-```markdown
 ![Create Snapshot](screenshots/12-create-snapshot.png)
-```
 
 ### 📷 Screenshot — Completed Snapshot
 
 
-```markdown
 ![MyKali Snapshot](screenshots/13-mykali-snapshot.png)
-```
 
 ---
 
