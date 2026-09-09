@@ -198,9 +198,7 @@ The VM was then prepared for network configuration.
 ![Kali Linux VM](screenshots/02-kali-open.png)
 
 
-```markdown
 ![Kali Linux VM](screenshots/03-kali-vm.png)
-```
 
 ---
 
