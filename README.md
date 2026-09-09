@@ -224,6 +224,7 @@ A **NAT Network** allows multiple VMs connected to the same NAT Network to commu
 
 This makes NAT Network useful for building a multi-machine cybersecurity laboratory.
 
+### 📷 Screenshot — Selecting NAT Network Adapter
 
 ![NAT Network Adapter](screenshots/04-nat-network-adapter.png)
 
@@ -251,7 +252,6 @@ The IPv4 configuration was then opened for manual configuration.
 
 ### 📷 Screenshot — Ethernet Configuration
 
-> **Insert your Ethernet settings screenshot here.**
 
 ![Ethernet Configuration](screenshots/05-ethernet-settings.png)
 
