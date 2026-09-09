@@ -107,21 +107,12 @@ The initial laboratory consists of:
 
 The network is designed so that additional virtual machines can be connected to the same NAT Network in future cybersecurity exercises.
 
-### 📷 Architecture Screenshot
-
-> **Insert your network architecture screenshot here.**
-
-```markdown
-![Lab Architecture](screenshots/01-lab-architecture.png)
-```
-
----
 
 # ⚙️ Lab Configuration
 
 | 🧩 Component         | ⚙️ Configuration         |
 | -------------------- | ------------------------ |
-| 🖥️ Host OS          | Windows 10               |
+| 🖥️ Host OS          | Windows 11               |
 | 🧰 Hypervisor        | Oracle VM VirtualBox 7.2 |
 | 🐉 Security OS       | Kali Linux 2026.2        |
 | 🧠 Kali RAM          | 2048 MB                  |
@@ -182,7 +173,6 @@ This allows multiple virtual machines to be placed within the same private virtu
 
 ### 📷 Screenshot — NAT Network Configuration
 
-> **Insert your screenshot showing the VirtualBox NAT Network configuration here.**
 
 ```markdown
 ![NAT Network Configuration](screenshots/01-nat-network.png)
@@ -206,10 +196,13 @@ The VM was then prepared for network configuration.
 
 ### 📷 Screenshot — Kali Linux Virtual Machine
 
-> **Insert your Kali VM configuration screenshot here.**
 
 ```markdown
-![Kali Linux VM](screenshots/02-kali-vm.png)
+![Kali Linux VM](screenshots/02-kali-open.png)
+```
+
+```markdown
+![Kali Linux VM](screenshots/03-kali-vm.png)
 ```
 
 ---
@@ -236,15 +229,6 @@ A **NAT Network** allows multiple VMs connected to the same NAT Network to commu
 
 This makes NAT Network useful for building a multi-machine cybersecurity laboratory.
 
-### 📷 Screenshots — Adapter Configuration
-
-> **Insert the screenshot showing the original NAT configuration.**
-
-```markdown
-![Initial NAT Configuration](screenshots/03-initial-nat.png)
-```
-
-> **Insert the screenshot showing the adapter changed to NAT Network.**
 
 ```markdown
 ![NAT Network Adapter](screenshots/04-nat-network-adapter.png)
@@ -303,7 +287,6 @@ The corresponding subnet mask is:
 
 ### 📷 Screenshot — Manual IPv4 Configuration
 
-> **Insert the screenshot showing the manual IPv4 configuration here.**
 
 ```markdown
 ![Manual IPv4 Configuration](screenshots/06-manual-ipv4.png)
@@ -338,7 +321,6 @@ at this stage of the experiment.
 
 ### 📷 Screenshot — `ip a`
 
-> **Insert your terminal screenshot showing the `ip a` result here.**
 
 ```markdown
 ![IP Address Verification](screenshots/07-ip-a.png)
@@ -367,9 +349,6 @@ From 10.0.0.2 icmp_seq=2 Destination Host Unreachable
 
 This indicated that although the interface had an IPv4 address, packets were not successfully reaching the intended destination.
 
-### 📷 Screenshot — Failed Ping Test
-
-> **Insert the screenshot showing the failed connectivity test here.**
 
 ```markdown
 ![Connectivity Failure](screenshots/08-connectivity-failure.png)
@@ -454,21 +433,11 @@ DNS:        8.8.8.8
 
 This resolved the configuration problem observed during the initial setup.
 
-### 📷 Screenshots — Troubleshooting
-
-> **Insert the screenshot showing the original `10.0.0.2` configuration.**
 
 ```markdown
 ![Initial IP Configuration](screenshots/09-ip-10.0.0.2.png)
 ```
 
-> **Insert the screenshot showing the failed connectivity test.**
-
-```markdown
-![Destination Host Unreachable](screenshots/10-destination-host-unreachable.png)
-```
-
-> **Insert the screenshot showing the corrected `10.0.0.4` configuration.**
 
 ```markdown
 ![Corrected IP Configuration](screenshots/11-ip-10.0.0.4.png)
@@ -570,9 +539,6 @@ mykali
 
 8. Confirm the snapshot.
 
-### 📷 Screenshot — Snapshot Creation
-
-> **Insert your screenshot showing the snapshot creation process here.**
 
 ```markdown
 ![Create Snapshot](screenshots/12-create-snapshot.png)
@@ -580,7 +546,6 @@ mykali
 
 ### 📷 Screenshot — Completed Snapshot
 
-> **Insert your screenshot showing the `mykali` snapshot here.**
 
 ```markdown
 ![MyKali Snapshot](screenshots/13-mykali-snapshot.png)
