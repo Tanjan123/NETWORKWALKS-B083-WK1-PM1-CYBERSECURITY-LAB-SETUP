@@ -84,7 +84,7 @@ The initial laboratory consists of:
 ```text
                     ┌─────────────────────────┐
                     │       Host Computer     │
-                    │        Windows 10       │
+                    │        Windows 11       │
                     └────────────┬────────────┘
                                  │
                                  │ VirtualBox
